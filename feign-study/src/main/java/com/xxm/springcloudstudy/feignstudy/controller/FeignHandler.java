@@ -4,6 +4,7 @@ import com.xxm.springcloudstudy.entity.Student;
 import com.xxm.springcloudstudy.feignstudy.feign.FeignProviderClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +17,7 @@ import java.util.Collection;
  */
 @RestController
 @RequestMapping("feign")
+@RefreshScope
 public class FeignHandler {
     @Autowired
     private FeignProviderClient feignProviderClient;
