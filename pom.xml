@@ -19,6 +19,7 @@
         <module>feign-study</module>
         <module>hystrix-study</module>
         <module>config</module>
+        <module>remote-config-server</module>
     </modules>
 
     <parent>
