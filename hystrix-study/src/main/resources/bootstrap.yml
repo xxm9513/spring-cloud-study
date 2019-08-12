@@ -1,0 +1,8 @@
+# 以下两项配置必须有
+spring:
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8762
+      fail-fast: true

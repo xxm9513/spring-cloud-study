@@ -1,0 +1,13 @@
+spring:
+  application:
+    # 在注册中心显示的名称
+    name: provider
+  profiles:
+    active: 1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    # 将当前服务的ip注册到注册中心
+    prefer-ip-address: true
