@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq-study/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-study/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-client/pom.xml" />
       </list>
     </option>
   </component>

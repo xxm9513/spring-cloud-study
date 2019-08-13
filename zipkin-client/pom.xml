@@ -7,10 +7,10 @@
         <groupId>com.xxm</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>zipkin-study</artifactId>
+    <artifactId>zipkin-client</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>zipkin-study</name>
-    <description>zipkin study</description>
+    <name>zipkin-client</name>
+    <description>zipkiin client study</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -29,12 +29,13 @@
         </dependency>
 
         <dependency>
-            <groupId>io.zipkin.java</groupId>
-            <artifactId>zipkin-server</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
         </dependency>
+
         <dependency>
-            <groupId>io.zipkin.java</groupId>
-            <artifactId>zipkin-autoconfigure-ui</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
     </dependencies>
 
