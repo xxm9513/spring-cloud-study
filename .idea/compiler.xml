@@ -17,6 +17,7 @@
         <module name="remote-config-server" />
         <module name="resttemplate-study" />
         <module name="ribbon-study" />
+        <module name="zipkin-study" />
         <module name="zuul-study" />
       </profile>
     </annotationProcessing>
