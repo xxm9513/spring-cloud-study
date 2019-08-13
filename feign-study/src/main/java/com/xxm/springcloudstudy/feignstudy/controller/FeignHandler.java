@@ -28,6 +28,9 @@ public class FeignHandler {
     @Value("${boot}")
     private String boot;
 
+    @Value("${foo.dev}")
+    private String fooDev;
+
     @GetMapping("findAll")
     public Collection<Student> findAll() {
         return feignProviderClient.findAll();
@@ -41,5 +44,10 @@ public class FeignHandler {
     @GetMapping("/getFoo")
     public String getFoo(){
         return foo + " : " + boot;
+    }
+
+    @GetMapping("/fooDev")
+    public String fooDev(){
+        return fooDev;
     }
 }

@@ -20,6 +20,7 @@
         <module>hystrix-study</module>
         <module>config</module>
         <module>remote-config-server</module>
+        <module>rabbitmq-study</module>
     </modules>
 
     <parent>

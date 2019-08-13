@@ -13,6 +13,7 @@
         <module name="eureka-server" />
         <module name="feign-study" />
         <module name="hystrix-study" />
+        <module name="rabbitmq-study" />
         <module name="remote-config-server" />
         <module name="resttemplate-study" />
         <module name="ribbon-study" />
